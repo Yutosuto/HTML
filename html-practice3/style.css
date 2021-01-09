@@ -12,7 +12,7 @@ header {
 main {
   width: 100%;
   margin: 50px auto;
-  display: block;
+  display: flex;
 }
 
 .step-box {
@@ -22,10 +22,6 @@ main {
   padding: 10px;
   position: relative;
   background-color: #eee;
-}
-
-.step-box:last-child {
-  margin-bottom: 0;
 }
 
 .step-img1 {
@@ -69,7 +65,7 @@ footer {
 
 /* タブレット縦置きサイズ768px以下対応 */
 @media screen and (max-width: 768px) {
-  .social i {
-    color: red;
+  main {
+    display: block;
   }
 }
