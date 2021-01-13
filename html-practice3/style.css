@@ -36,7 +36,7 @@ main {
 
 .step-img2 {
   height: 150px;
-  width: 280px;
+  /*width: 280px;*/
   background-image: url(img/flow02.png);
   background-position: bottom;
   background-size: cover;
@@ -44,7 +44,7 @@ main {
 
 .step-img3 {
   height: 150px;
-  width: 280px;
+  /*width: 280px;*/
   background-image: url(img/flow03.png);
   background-position: bottom;
   background-size: cover;
